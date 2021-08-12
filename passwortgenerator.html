@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html><html><head><meta charset="utf-8"></head><body>
+<p><h2>Passwort-Generator</h2></p>
+	<form action="passwortgenerator.php" method="POST">
+		<table>
+			<tr><td>Passwortlänge (8 - 20 Zeichen):</td>
+				<td><input type="number" name="laenge" min="8" max="20" required></td></tr>
+			
+			<tr><td>Anzahl Passwörter (1 - 100):</td>			
+				<td><input type="number" name="anzahl" min="1" max="100" required></td></tr>	
+		</table>
+		<p></P>
+		<table>
+			<tr><td><input type="reset" name = "löschen" value="Zurücksetzen"></td>
+			<td><input type="submit" name = "button" value="Abschicken"></td></tr>
+		</table>
+	</form>
+</body></html>
